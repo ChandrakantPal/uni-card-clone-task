@@ -29,19 +29,13 @@ const Header = () => {
           <div className="flex">
             <div className="menu-container hidden md:flex">
               <div className="pl-20">
-                <a
-                  href="https://www.uni.cards/pay-one-third"
-                  className="apply_btn no-underline visited:text-white text-white font-medium"
-                >
+                <a className="apply_btn no-underline visited:text-white text-white font-medium">
                   Pay 1/3rd Card
                 </a>
                 <div className="w-full mt-1 h-[2px] undefined"></div>
               </div>
               <div className="pl-20">
-                <a
-                  href="https://www.uni.cards/pay-half"
-                  className="apply_btn no-underline visited:text-white text-white font-medium"
-                >
+                <a className="apply_btn no-underline visited:text-white text-white font-medium">
                   Pay 1/2 Card
                 </a>
                 <div className="w-full mt-1 h-[2px] undefined"></div>
