@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.uni-gradient-primary {
+  background-image: linear-gradient(90deg, #8fffef 25%, #f9f490);
+  background: linear-gradient(90deg, #8fffef 25%, #f9f490);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+.hero-background {
+  background-color: #000000;
+  background-image: url(/images/redesign/black_background.webp);
+  width: 100vw;
+  height: 100vh;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg-uni-yellow {
+  background-color: rgba(253, 239, 120, 1);
+}
+.consent label {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+.text-uni-text-gray {
+  color: rgba(153, 153, 153, 1);
+}
+.green-gradient-text {
+  background-image: linear-gradient(90deg, #63d9c8, #63d9c8 100%);
+  -webkit-background-clip: text;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(135deg, yellow, violet);
+  background: linear-gradient(90deg, #63d9c8, #63d9c8 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+.animate {
+  -webkit-animation: moveupdown 5s linear normal;
+  animation: moveupdown 5s linear normal;
+}
+@keyframes moveupdown {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50px);
+  }
+}
+
+.download-bg {
+  background-image: linear-gradient(158deg, #5ad6c4, #fdef78);
+}
+
+.download-btn {
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  line-height: 1em;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  color: currentColor;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+}
+
+.black-gradient {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 110%);
+}
+.footer-logo {
+  width: 100px;
+  height: 80px;
+}
+.footer-gradient {
+  background: linear-gradient(
+    90deg,
+    #00dcc8 26.31%,
+    #00dcc8 61.59%,
+    #fff061 74.32%,
+    #fff061 85.31%
+  );
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
